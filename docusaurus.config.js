@@ -16,7 +16,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  organizationName: "tyankatsu0105",
+  organizationName: "style-challenges",
   projectName: "style-challenges",
 
   onBrokenLinks: "throw",
@@ -38,12 +38,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/tyankatsu0105/style-challenges/tree/main/docs",
+            "https://github.com/style-challenges/style-challenges/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/tyankatsu0105/style-challenges/tree/main/blog",
+            "https://github.com/style-challenges/style-challenges/tree/main/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -71,7 +71,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/tyankatsu0105/style-challenges",
+            href: "https://github.com/style-challenges/style-challenges",
             label: "GitHub",
             position: "right",
           },
@@ -89,7 +89,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/tyankatsu0105/style-challenges",
+                href: "https://github.com/style-challenges/style-challenges",
               },
             ],
           },
